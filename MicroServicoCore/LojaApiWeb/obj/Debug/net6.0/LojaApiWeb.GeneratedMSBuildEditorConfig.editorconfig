@@ -15,16 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Aulas\2022\DotNet\MicroServicos2022\MicroServicoCore\LojaApiWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Aulas/2022/DotNet/MicroServicos2022/MicroServicoCore/LojaApiWeb/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/Aulas/2022/DotNet/MicroServicos2022/MicroServicoCore/LojaApiWeb/Views/Product/ProductCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0Q3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Aulas/2022/DotNet/MicroServicos2022/MicroServicoCore/LojaApiWeb/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/Aulas/2022/DotNet/MicroServicos2022/MicroServicoCore/LojaApiWeb/Views/Product/ProductDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Aulas/2022/DotNet/MicroServicos2022/MicroServicoCore/LojaApiWeb/Views/Product/ProductIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Aulas/2022/DotNet/MicroServicos2022/MicroServicoCore/LojaApiWeb/Views/Product/ProductUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0VXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Aulas/2022/DotNet/MicroServicos2022/MicroServicoCore/LojaApiWeb/Views/Shared/Error.cshtml]
