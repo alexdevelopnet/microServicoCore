@@ -10,6 +10,7 @@ namespace LojaxApiProduto.Model
 {
     public class Product : BaseEntity
     {
+         
        [Column("name")]
         [Required]
         [StringLength(150)]

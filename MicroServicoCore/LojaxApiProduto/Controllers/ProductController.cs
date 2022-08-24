@@ -1,32 +1,36 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+using AutoMapper;
+using LojaxApiProduto.Data.ValueObjects;
+using LojaxApiProduto.Repository;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace LojaxApiProduto.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/v1/[controller]")]
+    [ApiController]
     public class ProductController : Controller
     {
-        private readonly ILogger<ProductController> _logger;
+        private  IProductRepository _repository;
+         
 
-        public ProductController(ILogger<ProductController> logger)
+        public ProductController(IProductRepository repository)
         {
-            _logger = logger;
+            _repository = repository ?? throw new
+               ArgumentNullException(nameof(repository));
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<ProductVO>>> FindAll()
         {
-            return View();
+            var products = _repository.FindAll();
+            return Ok(products);
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ProductVO>> FindById(long id)
         {
-            return View("Error!");
+            var product = await _repository.FindById(id);
+            if (product == null) return NotFound();
+            return Ok(product);
         }
     }
 }
