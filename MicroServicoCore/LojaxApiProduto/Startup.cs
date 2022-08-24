@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿
+using AutoMapper;
 using LojaxApiProduto.Config;
 using LojaxApiProduto.Model.Context;
 using LojaxApiProduto.Repository;
@@ -32,7 +33,14 @@ namespace LojaxApiProduto
 
             services.AddScoped<IProductRepository, ProductRepository>();
 
+
             services.AddControllers();
+                    //.AddNewtonsoftJson(
+                    //    opt => opt.SerializerSettings.ReferenceLoopHandling =
+                    //        Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+
+            ;
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MicroServicoCore.LojaxApiProduto", Version = "v1" });

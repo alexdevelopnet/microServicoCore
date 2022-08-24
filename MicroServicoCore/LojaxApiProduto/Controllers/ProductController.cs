@@ -22,6 +22,7 @@ namespace LojaxApiProduto.Controllers
         public async Task<ActionResult<IEnumerable<ProductVO>>> FindAll()
         {
             var products = _repository.FindAll();
+             
             return Ok(products);
         }
 

@@ -42,3 +42,7 @@ D:\Aulas\2022\DotNet\MicroServicos2022\MicroServicoCore\LojaxApiProduto\obj\Debu
 D:\Aulas\2022\DotNet\MicroServicos2022\MicroServicoCore\LojaxApiProduto\obj\Debug\net6.0\LojaxApiProduto.pdb
 D:\Aulas\2022\DotNet\MicroServicos2022\MicroServicoCore\LojaxApiProduto\obj\Debug\net6.0\LojaxApiProduto.genruntimeconfig.cache
 D:\Aulas\2022\DotNet\MicroServicos2022\MicroServicoCore\LojaxApiProduto\obj\Debug\net6.0\ref\LojaxApiProduto.dll
+D:\Aulas\2022\DotNet\MicroServicos2022\MicroServicoCore\LojaxApiProduto\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Aulas\2022\DotNet\MicroServicos2022\MicroServicoCore\LojaxApiProduto\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Aulas\2022\DotNet\MicroServicos2022\MicroServicoCore\LojaxApiProduto\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Aulas\2022\DotNet\MicroServicos2022\MicroServicoCore\LojaxApiProduto\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
